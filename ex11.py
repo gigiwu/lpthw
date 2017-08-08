@@ -1,0 +1,10 @@
+print("How old are you?", end=' ')
+age = input()
+print("How tall are you?", end=' ')
+height = input()
+print("How much do you weigh?", end= ' ')
+weight = input()
+
+lucky_number =input("What is your lucky number?")
+print(f"So, you're {age} old, {height} tall and {weight} heavy.")
+print(f"your lucky number is {lucky_number}.")
